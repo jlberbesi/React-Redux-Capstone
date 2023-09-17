@@ -5,6 +5,8 @@ import { faArrowLeft, faMicrophone, faCog } from '@fortawesome/free-solid-svg-ic
 import './style/NavBar.css';
 
 function NavBar() {
+  const rightIcons = [faMicrophone, faCog];
+
   return (
     <div className="navbar-container">
       <Link to="/" className="home-icon" data-testid="home-icon">
@@ -12,8 +14,9 @@ function NavBar() {
       </Link>
       <h1>CryptoWatch Tracker by José</h1>
       <div className="right-icons">
-        <FontAwesomeIcon icon={faMicrophone} />
-        <FontAwesomeIcon icon={faCog} />
+        {rightIcons.map((icon) => (
+          <FontAwesomeIcon key={icon.iconName} icon={icon} />
+        ))}
       </div>
     </div>
   );

@@ -6,13 +6,15 @@ import NavBar from './components/NavBar';
 
 function App() {
   return (
-    <Router>
-      <NavBar />
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/details/:id" element={<DetailsPage />} />
-      </Routes>
-    </Router>
+    <>
+      <Router>
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/details/:id" element={<DetailsPage />} />
+        </Routes>
+      </Router>
+    </>
   );
 }
 

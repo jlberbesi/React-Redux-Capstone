@@ -1,49 +1,49 @@
 .crypto-card {
-    transition: transform 0.3s ease;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    text-align: center;
-  }
-  
-  .crypto-card:hover {
-    transform: scale(1.02);
-  }
-  
-  .input {
-    margin: 20px;
-    padding: 10px;
-    width: 300px;
-    border: 1px solid #0057a4;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .crypto-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    padding: 20px;
-  }
-  
-  body {
-    background-color: #3b5a9a;
-  }
-  
-  .centerinput {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .arrow-container {
-    display: flex;
-    justify-content: flex-end;
-    padding: 0.5rem;
-  }
-  
-  .color-1 {
-    background-color: #3b5a9a;
-  }
-  
-  .color-2 {
-    background-color: #4369b2;
-  }
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+}
+
+.crypto-card:hover {
+  transform: scale(1.02);
+}
+
+.input {
+  margin: 20px;
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #0057a4;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.crypto-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  padding: 20px;
+}
+
+body {
+  background-color: #3b5a9a;
+}
+
+.centerinput {
+  display: flex;
+  justify-content: center;
+}
+
+.arrow-container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5rem;
+}
+
+.color-1 {
+  background-color: #3b5a9a;
+}
+
+.color-2 {
+  background-color: #4369b2;
+}

@@ -1,23 +1,23 @@
 .navbar-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    color: white;
-    background-color: #4369b2;
-  }
-  
-  .navbar-container .home-icon {
-    color: white;
-  }
-  
-  .navbar-container .right-icons {
-    display: flex;
-    gap: 10px;
-  }
-  
-  .right-icons i {
-    color: white;
-    font-size: 20px;
-    cursor: pointer;
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  color: white;
+  background-color: #4369b2;
+}
+
+.navbar-container .home-icon {
+  color: white;
+}
+
+.navbar-container .right-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.right-icons i {
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}

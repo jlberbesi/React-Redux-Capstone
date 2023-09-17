@@ -75,7 +75,7 @@ CryptoWatch is a Single Page Application (SPA) designed to provide users with co
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-🚀 Live demo of this project [here](Soon)
+🚀 Live demo of this project [here](https://react-reduc-capstone.onrender.com/)
 
 🚀 Video Info of this project [here](Soon)
 
